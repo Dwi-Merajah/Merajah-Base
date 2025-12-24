@@ -1,5 +1,3 @@
----
-
 # 🚀 @merajah/base
 
 **@merajah/base** adalah framework WhatsApp Bot berbasis **CommonJS (CJS)** yang menggunakan library **@merajah/baileys**. Proyek ini mengedepankan arsitektur **plugin modular**, **hot-reload**, dan sistem **event handler** yang terstruktur dengan rapi.
