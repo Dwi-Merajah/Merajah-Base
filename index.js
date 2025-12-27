@@ -6,12 +6,11 @@ const path = require('path')
 const fs = require('fs')
 
 const handler = require('./handler')
-const { init } = require('./meta/plugins')
 const LocalDB = require('./meta/database/localdb')
 const Func = require('./meta/function')
-require('./config')
 const chalk = require("chalk")
-
+require("./config")
+  
 ;(async () => {
   const database = new LocalDB('database')
 
